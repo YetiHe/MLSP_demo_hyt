@@ -1,0 +1,18 @@
+{
+  "batch_size": 16,
+  "nEpochs": 12,
+  "seed": 42,
+  "classes": 2,
+  "lr": 0.001,
+  "weight_decay": 1e-07,
+  "dataset": "..\\data",
+  "cosine": true,
+  "save": "saved\\cont",
+  "dim": [
+    80,
+    80,
+    52
+  ],
+  "is_continue": false,
+  "needROC": false
+}
